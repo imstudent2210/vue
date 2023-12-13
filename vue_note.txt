@@ -1,0 +1,11 @@
++ ref: ánh xạ đến chính element
+    this.$ref.[name] => trả về element cần thao tác đc gán ref="name"
++ cú pháp dùng v:for: 
+    <ul>
+        <li v-for="(item, index) in arr" :key="index">{{ item }}</li>
+    </ul>
++ vue debounce
+
++ Vue props: đẩy dữ liệu từ App.vue vào components con
+ prop = data cùng chức năng đẩy dữ liệu đưa lên view 
+    + có thể nhận vào 1 mảng prop hoặc 1 object có {type và default}
